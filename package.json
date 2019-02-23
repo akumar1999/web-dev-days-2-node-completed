@@ -4,6 +4,8 @@
   "description": "GDG New Delhi's Web Developers Day",
   "main": "index.js",
   "scripts": {
+	  "start": "nodemon index.js",
+	  "engines": { "node": ">=9.3.0" },
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/gdgnewdelhi/web-dev-day#readme",
   "dependencies": {
+	  "nodemon": "^1.18.10",
     "cors": "^2.8.5",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
